@@ -1,0 +1,34 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRM Automation suite" parallel = "none">
+
+<!-- <listeners>
+		<listener class-name="listener.ExtentReporterNG" />
+	</listeners> -->
+
+<listeners>
+		<listener class-name="listener.TestNGListener" />
+	</listeners>
+
+<test name="test1_Run1">
+  <classes>
+    <class name="testcases.LoginPageTest"/>
+  </classes>
+</test> 
+
+
+<!-- <test name="test2_Run1">
+  <classes>
+    <class name="testcases.HomePageTest"/>
+  </classes>
+</test> 
+
+
+<test name="test3_Run1">
+  <classes>
+    <class name="testcases.ContactsPageTest"/>
+  </classes>
+</test>  -->
+
+
+</suite>
