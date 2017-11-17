@@ -10,3 +10,7 @@
 2017-11-17 20:05:44,460 [main] WARN Log - warning example
 2017-11-17 20:05:48,448 [main] INFO Log - Password entered
 2017-11-17 20:05:57,765 [main] INFO Log - Clicked on login button
+2017-11-17 20:44:09,588 [main] INFO Log - Username entered
+2017-11-17 20:44:09,598 [main] WARN Log - warning example
+2017-11-17 20:44:11,594 [main] INFO Log - Password entered
+2017-11-17 20:44:20,369 [main] INFO Log - Clicked on login button
