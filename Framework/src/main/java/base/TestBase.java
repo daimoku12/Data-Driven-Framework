@@ -61,7 +61,7 @@ public class TestBase {
 		     //Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		     //extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+sdf.format(timestamp)+".html",true); 
 		     
-		     extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+"extent.html",true); 
+		     extent=new ExtentReports(System.getProperty("user.dir")+"/test-output/"+"extent.html",true); 
 		     
 			 extent.addSystemInfo("Project", "CRM Automation Testing");
 			 extent.addSystemInfo("SUITE", "Regression");
