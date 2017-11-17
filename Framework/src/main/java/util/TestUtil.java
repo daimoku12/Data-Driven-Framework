@@ -171,12 +171,16 @@ public static Object[][] TestDataSingleRow(String sheetName, int rownum) {
 
 	public static String TakeScreenShot(WebDriver driver) throws IOException{
 		
-		  SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy.HH.mm.ss");
-		  Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		  //SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy.HH.mm.ss");
+		  //Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		  
 		    TakesScreenshot ts = (TakesScreenshot)driver; 
 			File src= ts.getScreenshotAs(OutputType.FILE);
-			String dest = System.getProperty("user.dir")+"\\Screenshot\\"+sdf.format(timestamp)+".png";
+			
+			//String dest = System.getProperty("user.dir")+"\\Screenshot\\"+sdf.format(timestamp)+".png";
+			
+			String dest = System.getProperty("user.dir")+"\\Screenshot\\"+"screenshot.png";
+			
 			File destination = new File (dest);
 			FileUtils.copyFile(src, destination); 
 			return dest;

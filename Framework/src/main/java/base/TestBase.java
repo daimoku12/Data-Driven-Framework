@@ -56,9 +56,13 @@ public class TestBase {
 	static{
 		
 		     // use LocalDateTime.now(); (Java 8 onwards)
-		     SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy.HH.mm.ss");
-		     Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-		     extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+sdf.format(timestamp)+".html",true); 
+		     
+		     //SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy.HH.mm.ss");
+		     //Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		     //extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+sdf.format(timestamp)+".html",true); 
+		     
+		     extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+"extent.html",true); 
+		     
 			 extent.addSystemInfo("Project", "CRM Automation Testing");
 			 extent.addSystemInfo("SUITE", "Regression");
 			 extent.loadConfig(new File (System.getProperty("user.dir")+"/src/main/java/config/extent-config.xml"));

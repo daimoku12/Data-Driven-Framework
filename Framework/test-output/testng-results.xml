@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="CRM Automation suite" duration-ms="63735" started-at="2017-11-17T11:58:39Z" finished-at="2017-11-17T11:59:43Z">
+  <suite name="CRM Automation suite" duration-ms="86325" started-at="2017-11-17T14:35:02Z" finished-at="2017-11-17T14:36:29Z">
     <groups>
     </groups>
-    <test name="test1_Run1" duration-ms="63735" started-at="2017-11-17T11:58:39Z" finished-at="2017-11-17T11:59:43Z">
+    <test name="test1_Run1" duration-ms="86325" started-at="2017-11-17T14:35:02Z" finished-at="2017-11-17T14:36:29Z">
       <class name="testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="14569" started-at="2017-11-17T17:28:39Z" finished-at="2017-11-17T17:28:54Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="21994" started-at="2017-11-17T20:05:03Z" finished-at="2017-11-17T20:05:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:testcases.LoginPageTest@548a102f]" name="loginPageTitleTest" duration-ms="33" started-at="2017-11-17T17:28:54Z" finished-at="2017-11-17T17:28:54Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:testcases.LoginPageTest@548a102f]" name="loginPageTitleTest" duration-ms="121" started-at="2017-11-17T20:05:25Z" finished-at="2017-11-17T20:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1167" started-at="2017-11-17T17:28:54Z" finished-at="2017-11-17T17:28:55Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="2618" started-at="2017-11-17T20:05:25Z" finished-at="2017-11-17T20:05:27Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="11544" started-at="2017-11-17T17:28:55Z" finished-at="2017-11-17T17:29:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="14465" started-at="2017-11-17T20:05:27Z" finished-at="2017-11-17T20:05:42Z">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:testcases.LoginPageTest@548a102f]" name="loginTest" duration-ms="12912" started-at="2017-11-17T17:29:07Z" finished-at="2017-11-17T17:29:20Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:testcases.LoginPageTest@548a102f]" name="loginTest" duration-ms="15529" started-at="2017-11-17T20:05:42Z" finished-at="2017-11-17T20:05:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1014" started-at="2017-11-17T17:29:20Z" finished-at="2017-11-17T17:29:21Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1714" started-at="2017-11-17T20:05:57Z" finished-at="2017-11-17T20:05:59Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="9852" started-at="2017-11-17T17:29:21Z" finished-at="2017-11-17T17:29:31Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="15775" started-at="2017-11-17T20:05:59Z" finished-at="2017-11-17T20:06:15Z">
           <params>
             <param index="0">
               <value>
@@ -70,32 +70,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="sign()[pri:3, instance:testcases.LoginPageTest@548a102f]" name="sign" duration-ms="10043" started-at="2017-11-17T17:29:31Z" finished-at="2017-11-17T17:29:41Z">
+        <test-method status="FAIL" signature="sign()[pri:3, instance:testcases.LoginPageTest@548a102f]" name="sign" duration-ms="10093" started-at="2017-11-17T20:06:15Z" finished-at="2017-11-17T20:06:25Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'ign12')]"}
   (Session info: chrome=61.0.3163.79)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.03 seconds
+Command duration or timeout: 10.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'KunalMalik', ip: '192.168.43.252', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'KunalMalik', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Kannu\AppData\Local\Temp\scoped_dir3200_31143}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: aa513465e7bc0a78df332fff7fd3809d
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Kannu\AppData\Local\Temp\scoped_dir4516_14940}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 05bde6bb95d6acbf3016981ab1eab26b
 *** Element info: {Using=xpath, value=//button[contains(text(),'ign12')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'ign12')]"}
   (Session info: chrome=61.0.3163.79)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.03 seconds
+Command duration or timeout: 10.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'KunalMalik', ip: '192.168.43.252', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'KunalMalik', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Kannu\AppData\Local\Temp\scoped_dir3200_31143}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: aa513465e7bc0a78df332fff7fd3809d
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\Kannu\AppData\Local\Temp\scoped_dir4516_14940}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.79, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 05bde6bb95d6acbf3016981ab1eab26b
 *** Element info: {Using=xpath, value=//button[contains(text(),'ign12')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -151,7 +151,7 @@ Session ID: aa513465e7bc0a78df332fff7fd3809d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sign -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1943" started-at="2017-11-17T17:29:41Z" finished-at="2017-11-17T17:29:43Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="2967" started-at="2017-11-17T20:06:25Z" finished-at="2017-11-17T20:06:28Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@ Session ID: aa513465e7bc0a78df332fff7fd3809d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.LoginPageTest@548a102f]" name="endTest" is-config="true" duration-ms="577" started-at="2017-11-17T17:29:43Z" finished-at="2017-11-17T17:29:43Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.LoginPageTest@548a102f]" name="endTest" is-config="true" duration-ms="940" started-at="2017-11-17T20:06:28Z" finished-at="2017-11-17T20:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
