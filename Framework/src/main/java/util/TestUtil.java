@@ -181,7 +181,9 @@ public static Object[][] TestDataSingleRow(String sheetName, int rownum) {
 			
 			//String dest = System.getProperty("user.dir")+"\\Report\\"+"screenshot.png";
 			
-			String dest = "./Report/"+"screenshot.png";
+			//String dest = "./Report/"+"screenshot.png";
+			
+			String dest = "C:/Users/Kannu/git/MyFramework/Framework/Report/screenshot.png";
 			
 			File destination = new File (dest);
 			FileUtils.copyFile(src, destination); 
