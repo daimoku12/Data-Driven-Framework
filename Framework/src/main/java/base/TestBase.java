@@ -3,8 +3,6 @@ package base;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
@@ -61,9 +59,9 @@ public class TestBase {
 		     //Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		     //extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+sdf.format(timestamp)+".html",true); 
 		     
-		     //extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+"extent.html",true); 
+		     extent=new ExtentReports(System.getProperty("user.dir")+"/Report/"+"extent.html",true); 
 		     
-		     extent=new ExtentReports("C:\\Users\\Kannu\\git\\MyFramework\\Framework\\Report\\extent.html",true); 
+		     //extent=new ExtentReports("C:\\Users\\Kannu\\git\\MyFramework\\Framework\\Report\\extent.html",true); 
 		     
 			 extent.addSystemInfo("Project", "CRM Automation Testing");
 			 extent.addSystemInfo("SUITE", "Regression");
