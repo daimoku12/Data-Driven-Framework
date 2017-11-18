@@ -10,6 +10,7 @@
         <methods>
           <include name="sign"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
           <include name="endTest"/>
           <include name="teardown"/>
         </methods>
