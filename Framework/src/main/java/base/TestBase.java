@@ -30,7 +30,7 @@ public class TestBase {
 	public static WebEventListener eventListener;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	public static Logger log;
+	protected Logger log;
 	public static ChromeOptions options;
 	//public static ATUTestRecorder recorder;
 	

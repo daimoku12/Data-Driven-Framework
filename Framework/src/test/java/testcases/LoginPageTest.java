@@ -30,7 +30,7 @@ public class LoginPageTest extends TestBase{
 		test.log(LogStatus.INFO, result.getName() + " : Test started");
 	}
 		
-/*	@Test (priority=1)
+	@Test (priority=1)
 	public void loginPageTitleTest(){
 		String title= loginpageObj.validateLoginPageTitle();
 		Assert.assertEquals(title, "#1 Free CRM for Any Business: Online Customer Relationship Software");
@@ -43,7 +43,7 @@ public class LoginPageTest extends TestBase{
 		test.log(LogStatus.INFO,"Password entered");
 		test.log(LogStatus.INFO,"Clicked on Login button");
 	}
-	*/
+	
 	@Test (priority=3)
 	public void sign(){
 		loginpageObj.signin();
