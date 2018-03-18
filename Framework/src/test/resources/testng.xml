@@ -17,7 +17,7 @@
 </test> 
 
 
-<!-- <test name="test2_Run1">
+<test name="test2_Run1">
   <classes>
     <class name="testcases.HomePageTest"/>
   </classes>
@@ -28,7 +28,7 @@
   <classes>
     <class name="testcases.ContactsPageTest"/>
   </classes>
-</test>  -->
+</test> 
 
 
 </suite>

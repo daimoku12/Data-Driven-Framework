@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="listener.TestNGListener"/>
   </listeners>
-  <test name="test1_Run1(failed)">
+  <test name="test2_Run1(failed)">
     <classes>
-      <class name="testcases.LoginPageTest">
+      <class name="testcases.HomePageTest">
         <methods>
-          <include name="sign"/>
+          <include name="demoTestSkip"/>
           <include name="setUp"/>
           <include name="endTest"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testcases.LoginPageTest -->
+      </class> <!-- testcases.HomePageTest -->
     </classes>
-  </test> <!-- test1_Run1(failed) -->
+  </test> <!-- test2_Run1(failed) -->
 </suite> <!-- Failed suite [CRM Automation suite] -->

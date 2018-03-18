@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="CRM Automation suite" duration-ms="59394" started-at="2018-01-18T18:05:09Z" finished-at="2018-01-18T18:06:08Z">
+  <suite name="CRM Automation suite" duration-ms="179104" started-at="2018-03-18T02:21:31Z" finished-at="2018-03-18T02:24:30Z">
     <groups>
     </groups>
-    <test name="test1_Run1" duration-ms="59394" started-at="2018-01-18T18:05:09Z" finished-at="2018-01-18T18:06:08Z">
+    <test name="test1_Run1" duration-ms="50682" started-at="2018-03-18T02:21:31Z" finished-at="2018-03-18T02:22:21Z">
       <class name="testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="12492" started-at="2018-01-18T23:35:09Z" finished-at="2018-01-18T23:35:21Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="13124" started-at="2018-03-17T22:21:31Z" finished-at="2018-03-17T22:21:44Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:testcases.LoginPageTest@548a102f]" name="loginPageTitleTest" duration-ms="287" started-at="2018-01-18T23:35:21Z" finished-at="2018-01-18T23:35:21Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:testcases.LoginPageTest@548a102f]" name="loginPageTitleTest" duration-ms="51" started-at="2018-03-17T22:21:44Z" finished-at="2018-03-17T22:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="11450" started-at="2018-01-18T23:35:21Z" finished-at="2018-01-18T23:35:33Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="2796" started-at="2018-03-17T22:21:44Z" finished-at="2018-03-17T22:21:47Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="8519" started-at="2018-01-18T23:35:33Z" finished-at="2018-01-18T23:35:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="8713" started-at="2018-03-17T22:21:47Z" finished-at="2018-03-17T22:21:55Z">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:testcases.LoginPageTest@548a102f]" name="loginTest" duration-ms="11122" started-at="2018-01-18T23:35:41Z" finished-at="2018-01-18T23:35:52Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:testcases.LoginPageTest@548a102f]" name="loginTest" duration-ms="12918" started-at="2018-03-17T22:21:55Z" finished-at="2018-03-17T22:22:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1162" started-at="2018-01-18T23:35:52Z" finished-at="2018-01-18T23:35:54Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1350" started-at="2018-03-17T22:22:08Z" finished-at="2018-03-17T22:22:10Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="9254" started-at="2018-01-18T23:35:54Z" finished-at="2018-01-18T23:36:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="setUp" is-config="true" duration-ms="7496" started-at="2018-03-17T22:22:10Z" finished-at="2018-03-17T22:22:17Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sign()[pri:3, instance:testcases.LoginPageTest@548a102f]" name="sign" duration-ms="2919" started-at="2018-01-18T23:36:03Z" finished-at="2018-01-18T23:36:06Z">
+        <test-method status="PASS" signature="sign()[pri:3, instance:testcases.LoginPageTest@548a102f]" name="sign" duration-ms="2161" started-at="2018-03-17T22:22:17Z" finished-at="2018-03-17T22:22:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sign -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1122" started-at="2018-01-18T23:36:06Z" finished-at="2018-01-18T23:36:07Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@548a102f]" name="teardown" is-config="true" duration-ms="1059" started-at="2018-03-17T22:22:19Z" finished-at="2018-03-17T22:22:20Z">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,240 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.LoginPageTest@548a102f]" name="endTest" is-config="true" duration-ms="994" started-at="2018-01-18T23:36:07Z" finished-at="2018-01-18T23:36:08Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.LoginPageTest@548a102f]" name="endTest" is-config="true" duration-ms="929" started-at="2018-03-17T22:22:20Z" finished-at="2018-03-17T22:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcases.LoginPageTest -->
     </test> <!-- test1_Run1 -->
+    <test name="test2_Run1" duration-ms="77386" started-at="2018-03-18T02:22:21Z" finished-at="2018-03-18T02:23:39Z">
+      <class name="testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@475e586c]" name="setUp" is-config="true" duration-ms="19235" started-at="2018-03-17T22:22:21Z" finished-at="2018-03-17T22:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.homePageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:testcases.HomePageTest@475e586c]" name="homePageTitleTest" duration-ms="18" started-at="2018-03-17T22:22:41Z" finished-at="2018-03-17T22:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@475e586c]" name="teardown" is-config="true" duration-ms="1086" started-at="2018-03-17T22:22:41Z" finished-at="2018-03-17T22:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageTitleTest status=SUCCESS method=HomePageTest.homePageTitleTest()[pri:1, instance:testcases.HomePageTest@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@475e586c]" name="setUp" is-config="true" duration-ms="16026" started-at="2018-03-17T22:22:42Z" finished-at="2018-03-17T22:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.verifyUserNameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:testcases.HomePageTest@475e586c]" name="verifyUserNameTest" duration-ms="342" started-at="2018-03-17T22:22:58Z" finished-at="2018-03-17T22:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@475e586c]" name="teardown" is-config="true" duration-ms="1054" started-at="2018-03-17T22:22:58Z" finished-at="2018-03-17T22:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserNameTest status=SUCCESS method=HomePageTest.verifyUserNameTest()[pri:2, instance:testcases.HomePageTest@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@475e586c]" name="setUp" is-config="true" duration-ms="16061" started-at="2018-03-17T22:22:59Z" finished-at="2018-03-17T22:23:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.verifyContactsLinkTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:testcases.HomePageTest@475e586c]" name="verifyContactsLinkTest" duration-ms="2372" started-at="2018-03-17T22:23:15Z" finished-at="2018-03-17T22:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@475e586c]" name="teardown" is-config="true" duration-ms="1079" started-at="2018-03-17T22:23:18Z" finished-at="2018-03-17T22:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactsLinkTest status=SUCCESS method=HomePageTest.verifyContactsLinkTest()[pri:3, instance:testcases.HomePageTest@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@475e586c]" name="setUp" is-config="true" duration-ms="18824" started-at="2018-03-17T22:23:19Z" finished-at="2018-03-17T22:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.demoTestSkip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="demoTestSkip()[pri:4, instance:testcases.HomePageTest@475e586c]" name="demoTestSkip" duration-ms="2" started-at="2018-03-17T22:23:37Z" finished-at="2018-03-17T22:23:37Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test is not ready]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test is not ready
+	at testcases.HomePageTest.demoTestSkip(HomePageTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestSkip -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@475e586c]" name="teardown" is-config="true" duration-ms="1170" started-at="2018-03-17T22:23:37Z" finished-at="2018-03-17T22:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoTestSkip status=SKIP method=HomePageTest.demoTestSkip()[pri:4, instance:testcases.HomePageTest@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.HomePageTest@475e586c]" name="endTest" is-config="true" duration-ms="94" started-at="2018-03-17T22:23:39Z" finished-at="2018-03-17T22:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcases.HomePageTest -->
+    </test> <!-- test2_Run1 -->
+    <test name="test3_Run1" duration-ms="50988" started-at="2018-03-18T02:23:39Z" finished-at="2018-03-18T02:24:30Z">
+      <class name="testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.ContactsPageTest@13acb0d1]" name="setUp" is-config="true" duration-ms="17897" started-at="2018-03-17T22:23:39Z" finished-at="2018-03-17T22:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ContactsPageTest.verifyContactsLabelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsLabelTest()[pri:1, instance:testcases.ContactsPageTest@13acb0d1]" name="verifyContactsLabelTest" duration-ms="141" started-at="2018-03-17T22:23:57Z" finished-at="2018-03-17T22:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLabelTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.ContactsPageTest@13acb0d1]" name="teardown" is-config="true" duration-ms="1062" started-at="2018-03-17T22:23:57Z" finished-at="2018-03-17T22:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactsLabelTest status=SUCCESS method=ContactsPageTest.verifyContactsLabelTest()[pri:1, instance:testcases.ContactsPageTest@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.ContactsPageTest@13acb0d1]" name="setUp" is-config="true" duration-ms="20077" started-at="2018-03-17T22:23:59Z" finished-at="2018-03-17T22:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ContactsPageTest.validateCreateNewContactTest(java.lang.String,java.lang.String,java.lang.String,double)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContactTest(java.lang.String, java.lang.String, java.lang.String, double)[pri:2, instance:testcases.ContactsPageTest@13acb0d1]" name="validateCreateNewContactTest" duration-ms="9139" started-at="2018-03-17T22:24:19Z" data-provider="getCRMTestData" finished-at="2018-03-17T22:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jennifer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aniston]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1235.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContactTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.ContactsPageTest@13acb0d1]" name="teardown" is-config="true" duration-ms="1076" started-at="2018-03-17T22:24:29Z" finished-at="2018-03-17T22:24:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateNewContactTest status=SUCCESS method=ContactsPageTest.validateCreateNewContactTest(java.lang.String, java.lang.String, java.lang.String, double)[pri:2, instance:testcases.ContactsPageTest@13acb0d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.ContactsPageTest@13acb0d1]" name="endTest" is-config="true" duration-ms="89" started-at="2018-03-17T22:24:30Z" finished-at="2018-03-17T22:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcases.ContactsPageTest -->
+    </test> <!-- test3_Run1 -->
   </suite> <!-- CRM Automation suite -->
 </testng-results>
